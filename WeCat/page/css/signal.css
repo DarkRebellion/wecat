@@ -1,0 +1,87 @@
+#signal{
+	background-color:#000000;
+	width:100%;
+	height: 32px;
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+#signal_l{
+	flex: 3;
+	height: 100%;
+}
+#signal_r{
+	flex: 3;
+	height: 100%;
+}
+#signal_c{
+	flex: 1.5;
+	height: 100%;
+}
+
+#signal_l_sig{
+	height: 100%;
+	width: 36px ;
+	margin: 4px;
+}
+#signal_l_sig div{
+	margin-bottom: 4px;
+	width: 4px;
+}
+
+#signal_l_sig div:nth-child(1){
+	height: 9px;
+}
+#signal_l_sig div:nth-child(2){
+	height: 13px;
+}
+#signal_l_sig div:nth-child(3){
+	height: 17px;
+}
+#signal_l_sig div:nth-child(4){
+	height: 21px;
+}
+
+.sig_strong{
+	background-color: white;
+	border-radius: 1px 1px 0px 0px;
+}
+.sig_weak{
+	border: 1px solid white;
+	border-radius: 1px 1px 0px 0px;
+}
+.sig-font{
+	width: 44px;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 80%;
+}
+
+#battery{
+	width: 30px;
+	height: 14px;
+	border: 1px solid white;
+	margin-left: 4px;
+}
+#battery_a{
+	width: 10%;
+	height: 14px;
+	background-color: red;
+}
+#battery_b{
+	height: 6px;
+	width: 2px;
+	background-color: white;
+	margin-right: 6px;
+}
+
+#signal_item{
+	flex: 1;
+	height: 16px;
+}
+#signal_item2{
+	background-size: contain;
+	background-position: center;
+	height: 16px;
+}

@@ -1,0 +1,23 @@
+#search{
+	background-color:#999999;
+	width:100%;
+	height: 40px;
+}
+#sea_a{
+	width: 96%;
+	height: 26px;
+	background-color: white;
+	border-radius: 4px;
+}
+#sea_c{
+	height: 24px;
+
+}
+.search_font{
+	width:34px;
+	font-family: "微软雅黑";
+	font-weight: 100;
+	font-size: 13px;
+	color:#9E9E9E;
+}
+

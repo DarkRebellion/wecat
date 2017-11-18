@@ -1,0 +1,79 @@
+#chat{
+	background-color: #9E9E9E;
+	width:100%;
+	
+	height: 80px;
+	flex-grow:1;
+	
+	overflow-y: scroll;
+}
+.items{
+	background-color: white ;
+	width:100%;
+	height:50px;
+	margin:1px 1px 1px 1px;
+}
+.items_center{
+	flex-wrap: wrap;
+}
+.nikoname{
+	font-family: "微软雅黑";
+	color: black;
+	font-size: 18px;
+	text-indent: 6px;
+	font-weight: 500;
+	height:50%;
+}
+.items_photo{
+	background-size: contain;
+	background-position: center;
+	height: 46px;
+	margin-left: 2px;
+	margin-top: 2px;
+	width: 46px;
+}
+.other{
+	flex:1;
+}
+.items_container{
+	width: 50px;
+}
+.new-msg{
+	/*红点*/
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #ef5350;
+	position: absolute;
+	z-index: 1;
+	top: -4px;
+	right: -6px;
+}
+.new-msg-c{
+	/*红点*/
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	background-color: #ef5350;
+	position: absolute;
+	z-index: 1;
+	top: -9px;
+	right: -8px;
+	color: white;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	text-align: center;
+	line-height: 16px;
+}
+.msg_content{
+	/*信息*/
+	font-family: "微软雅黑";
+	color: grey;
+	font-size: 14px;
+	text-indent: 6px;
+	font-weight: 300;
+	height:50%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
